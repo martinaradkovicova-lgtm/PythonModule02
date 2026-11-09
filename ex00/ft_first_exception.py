@@ -14,7 +14,3 @@ def test_temperature() -> None:
             print(f"Caught input_temperature error: "
                   f"invalid literal for int() with base 10: '{temp}'")
     print("All tests completed - program didn't crash!")
-
-
-if __name__ == "__main__":
-    test_temperature()
